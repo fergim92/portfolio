@@ -156,26 +156,30 @@ export const skills = [
         ],
     },
 ];
-/*
+
 export const experiences = [
     {
         id: 0,
-        img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
-        role: "Frontend Engineer Intern",
-        company: "Neurobit",
-        date: "June 2023 - Present",
-        desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+        img: "https://img.freepik.com/premium-vector/web-developer-flat-icon-color-simple-element-from-freelance-collection-creative-web-developer-icon-web-design-templates-infographics-more_676904-1077.jpg?w=740",
+        role: "Freelancer Junior Full Stack Engineer",
+        company: "Fiverr",
+        date: "January 2022 - Present",
+        desc: "Working on both the frontend and backend of the web application using a variety of languages and frameworks.",
         skills: [
-            "ReactJS",
+            "React Js",
+            "Next Js",
             "Redux",
-            "NodeJs",
-            "Material UI",
+            "Node Js",
+            "Express Js",
             "HTML",
             "CSS",
+            "Bootstrap",
+            "Spring",
             "JavaScript",
+            
         ],
-        doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-    },
+        doc: "https://github.com/fergim92",
+    },/*
     {
         id: 1,
         img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
@@ -239,7 +243,7 @@ export const experiences = [
         ],
         doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
     },
-];
+*/]
 
 export const education = [
     {
@@ -275,7 +279,7 @@ export const projects = [
     {
         id: 9,
         title: "Trackify",
-        date: "Jun 2023 - Jul 2023",
+        date: "-",
         description:
             "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
         image:
@@ -294,40 +298,40 @@ export const projects = [
             "Redux",
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Trackify",
-        webapp: "https://trackify.duckdns.org",
+        github: "-",
+        webapp: "-",
     },
     {
         id: 0,
-        title: "Podstream",
-        date: "Apr 2023 - May 2023",
+        title: "Library",
+        date: "-",
         description:
-            "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+            "A library is interested in automating the loan management.",
         image:
             "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        tags: ["Next Js", "Node Js", "BigQuery"],
         category: "web app",
-        github: "https://github.com/rishavchanda/Podstream",
-        webapp: "https://podstream.netlify.app/",
+        github: "https://github.com/fergim92/proyecto-programacion3",
+        webapp: "https://proyecto-programacion3-bmv3.vercel.app/",
         member: [
             {
-                name: "Rishav Chanda",
-                img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-                linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-                github: "https://github.com/rishavchanda/",
+                name: "Fernando Gimenez",
+                img: "https://avatars.githubusercontent.com/u/73027853?v=4",
+                linkedin: "https://www.linkedin.com/in/fernandomarcosgimenez/",
+                github: "https://github.com/fergim92",
             },
             {
-                name: "Upasana Chaudhuri",
-                img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-                linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-                github: "https://github.com/upasana0710",
+                name: "Mauricio Boye",
+                img: "https://media.licdn.com/dms/image/C4D03AQFDI9qI1z5how/profile-displayphoto-shrink_200_200/0/1660597052364?e=1704931200&v=beta&t=BAbx3LerG8RBwYbQHihGuS1HPMdcFP0nYFUOO64eYkI",
+                linkedin: "https://www.linkedin.com/in/mauricioboye/",
+                github: "https://github.com/MauriBoye",
             },
         ],
     },
     {
         id: 1,
         title: "Vexa",
-        date: "Oct 2022 - Present",
+        date: "-",
         description:
             "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
         image:
@@ -341,10 +345,10 @@ export const projects = [
             "NodeMailer",
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Project-Management-App",
-        webapp: "https://vexa-app.netlify.app/",
+        github: "-",
+        webapp: "-",
     },
-    {
+/*     {
         id: 2,
         title: "Brain Tumor Detection",
         date: "Jan 2023 - Mar 2023",
@@ -383,60 +387,60 @@ export const projects = [
         category: "android app",
         github: "https://github.com/rishavchanda/Buckoid-Android-App",
         webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-    },
+    },*/
     {
         id: 10,
         title: "Job Finding App",
-        date: "Jun 2023 - Jul 2023",
+        date: "-",
         description:
             "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
         image:
             "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
         tags: ["React Native", "JavaScript", "Axios"],
         category: "android app",
-        github: "https://github.com/rishavchanda/Job-finder-App",
-        webapp: "https://github.com/rishavchanda/Job-finder-App",
+        github: "-",
+        webapp: "-",
     },
     {
         id: 4,
         title: "Whatsapp Clone",
-        date: "Jul 2021",
+        date: "-",
         description:
             "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
         image:
             "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
         tags: ["React Js", "Firebase", "Firestore", "Node JS"],
         category: "web app",
-        github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-        webapp: "https://whatsapp-clone-rishav.web.app",
+        github: "-",
+        webapp: "-",
     },
     {
         id: 5,
         title: "Todo Web App",
-        date: "Jun 2021",
+        date: "-",
         description:
             " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
         image:
             "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
         tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
         category: "web app",
-        github: "https://github.com/rishavchanda/Todo-Web-App",
-        webapp: "https://rishav-react-todo.netlify.app/",
+        github: "-",
+        webapp: "-",
     },
     {
         id: 6,
         title: "Breaking Bad",
-        date: "Jun 2021",
+        date: "-",
         description:
             "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
         image:
             "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
         tags: ["React Js", "API", "Axios", "Node JS"],
         category: "web app",
-        github: "https://github.com/rishavchanda/Breaking-Bad",
-        webapp: "https://breaking-bad-webapp.netlify.app",
+        github: "-",
+        webapp: "-",
     },
-    {
+/*    {
         id: 7,
         title: "Quiz App",
         date: "Dec 2020 - Jan 2021",
@@ -461,15 +465,12 @@ export const projects = [
         category: "machine learning",
         github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
         webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
+    },*/
 ];
 
 export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
+    { year: 2020, text: "Started my journey" },
+    { year: 2021, text: "Computer Engineering" },
+    { year: 2022, text: "Worked as a freelance developer" },
 ];
 
-*/
